@@ -3,7 +3,7 @@ A premium, responsive “Coming Soon” landing page created for Chai Culture, a
 The page is designed to reflect elegance, warmth, and heritage while maintaining a modern, minimal user experience.
 
 # 🌟 Live Demo
-🔗 heartfelt-lamington-c062a9.netlify.app
+🔗 [View Live Site](https://heartfelt-lamington-c062a9.netlify.app)
 
 # 📁 GitHub Repository
 🔗 https://github.com/richa948/chai-culture-coming-soon
