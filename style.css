@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: #f5efe6;
+    color: #3b2f2f;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    padding: 20px;
+}
+.logo{
+    width: 200px;
+}
+.main{
+    flex: 1;
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+.main h1{
+    font-family: 'playfair Display', serif;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #3b2f2f;
+}
+.description{
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+.launching{
+    color: #c4993d;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+.email-box{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.email-box input{
+    padding: 12px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.email-box button{
+    padding: 12px 20px;
+    background-color: #c9a24d;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.email-box button:hover{
+    background-color: #b083ae;
+}
+.footer{
+    padding: 20px;
+}
+.footer a{
+    color:#3b2f2f;
+    margin: 0 10px;
+    font-size: 1.4rem;
+    transition: color 0.3s;
+
+}
+.footer a:hover{
+    color: #c9a24d;
+}
+
+@media (max-width: 768px) {
+    .main h1{
+        font-size: 2 rem;
+    }
+    .email-box{
+        flex-direction: column;
+    }
+    .email-box input{
+        width: 100%;
+    }
+}
